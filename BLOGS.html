@@ -1,0 +1,129 @@
+<div class="blog-container">
+    <h2>Our Blogs</h2>
+    <ul class="blog-list">
+        <style>
+            :root {
+    --primary-1: #590d22;
+    --primary-2: #800f2f;
+    --primary-3: #a4133c;
+    --primary-4: #c9184a;
+    --primary-5: #ff4d6d;
+    --primary-6: #ff758f;
+    --primary-7: #ff8fa3;
+    --primary-8: #ffb3c1;
+    --primary-9: #ffccd5;
+    --primary-10: #fff0f3;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-10);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.blog-container {
+    background: var(--primary-9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    max-width: 650px;
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary-2);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.blog-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+}
+
+.blog-list li {
+    background: var(--primary-8);
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, background 0.3s;
+}
+
+.blog-list li:hover {
+    transform: scale(1.05);
+    background: var(--primary-6);
+}
+
+.blog-list a {
+    text-decoration: none;
+    color: var(--primary-1);
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.blog-list a:hover {
+    color: var(--primary-5);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-1);
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+}
+
+nav a:hover, nav a.active {
+    color: var(--primary-10);
+    background: var(--primary-5);
+    border-radius: 6px;
+}
+
+
+/* Mobile-Friendly */
+@media (max-width: 500px) {
+    .blog-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+        </style>
+    <li><a href="blogs/blog1/blog1.html">Understanding Linear Regressionn</a></li>
+    <li><a href="blogs/blog4/4.html">Introduction to Data Mining</a></li> 
+    <li><a href="blogs/blog2/blog2.html">Data Mining vs. Machine Learning</a></li>
+    <li><a href="blogs/blog3/blog3.html">The Data Mining Process</a></li>
+    <li><a href="blogs/blog5/5.html">Data Mining Blog</a></li>
+    <li><a href="blogs/blog6/6.html">Data Preprocessing in Data Mining</a></li> 
+    <li><a href="blogs/blog7/7.html">Association Rule Mining</a></li>
+    <li><a href="blogs/8/8.html">Decision Trees</a></li> 
+    <li><a href="blogs/9/9.html">Clustering Techniques</a></li>
+    <li><a href="blogs/10/10.html">Support Vector Machines</a></li> 
+    <li><a href="blogs/11/11.html">Deep Learning vs. Traditional Machine Learning</a></li>
+    <li><a href="blogs/12/12.html">Neural Networks </a></li> 
+    <li><a href="blogs/13/13.html">Reinforcement Learning</a></li>
+    <li><a href="blogs/14/14.html">Generative Adversarial Networks </a></li> 
+    <li><a href="blogs/15/15.html">Natural Language Processing</a></li>
+    <li><a href="blogs/16/16.html">Explainable AI</a></li> 
+    <li><a href="blogs/17/17.html">Federated Learning</a></li>
+    <li><a href="blogs/18/18.html">Ethical AI</a></li> 
+    <li><a href="blogs/19/19.html">AI for Social Good</a></li>
+    <li><a href="blogs/20/20.html">The Future of AI</a></li> 
+    <li><a href="blogs/21/21.html">The Power of Linear and Logistic Regression in Predictive Analytics</a></li>
+    <li><a href="blogs/22/22.html">K-Means and DBSCAN</a></li> 
+    <li><a href="blogs/23/23.html"> K-Nearest Neighbors </a></li>
+    <li><a href="blogs/24/24.html">Principal Component Analysis</a></li> 
+</ul>
+</div>

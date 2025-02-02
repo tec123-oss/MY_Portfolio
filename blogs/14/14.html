@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GANs Blog Card</title>
+    <style>
+        :root {
+            --primary-1: #590d22;
+            --primary-2: #800f2f;
+            --primary-3: #a4133c;
+            --primary-4: #c9184a;
+            --primary-5: #ff4d6d;
+            --primary-6: #ff758f;
+            --primary-7: #ff8fa3;
+            --primary-8: #ffb3c1;
+            --primary-9: #ffccd5;
+            --primary-10: #fff0f3;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--primary-10);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .blog-card {
+            background: var(--primary-8);
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            max-width: 450px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .blog-card h2 {
+            font-size: 24px;
+            color: var(--primary-1);
+            margin: 20px;
+        }
+
+        .blog-card p {
+            font-size: 16px;
+            color: var(--primary-3);
+            padding: 0 20px 20px;
+            line-height: 1.5;
+        }
+
+        .read-more {
+            display: inline-block;
+            background-color: var(--primary-4);
+            color: #ffffff;
+            border-radius: 6px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .read-more:hover {
+            background-color: var(--primary-5);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blog-card">
+        <img src="gans.jpg" alt="Blog Image">
+
+        <h2>Generative Adversarial Networks (GANs): Creating Artificial Data</h2>
+        <p>
+            Generative Adversarial Networks (GANs) have revolutionized AI by enabling machines to create realistic synthetic data. Learn how GANs generate images, music, and more through adversarial training, and explore their applications in deepfake technology, medical imaging, and data augmentation.
+        </p>
+        <a href="more.html" class="read-more">Read More</a>
+    </div>
+</body>
+</html>

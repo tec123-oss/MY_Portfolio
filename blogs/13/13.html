@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinforcement Learning Blog Card</title>
+    <style>
+        :root {
+            --primary-1: #1b263b;
+            --primary-2: #415a77;
+            --primary-3: #778da9;
+            --primary-4: #e0e1dd;
+            --primary-5: #f4f4f2;
+            --accent: #ff6600;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--primary-5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .blog-card {
+            background: var(--primary-4);
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            max-width: 450px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .blog-card h2 {
+            font-size: 22px;
+            color: var(--primary-1);
+            margin: 20px;
+        }
+
+        .blog-card p {
+            font-size: 16px;
+            color: var(--primary-2);
+            padding: 0 20px 20px;
+            line-height: 1.5;
+        }
+
+        .read-more {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #ffffff;
+            border-radius: 6px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .read-more:hover {
+            background-color: #cc5500;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-card">
+        <img src="rein.jpg" alt="Reinforcement Learning Image">
+
+        <h2>Reinforcement Learning: Teaching Machines to Make Decisions</h2>
+        <p>
+            Reinforcement Learning (RL) is an exciting AI field where machines learn through interaction with their environment. By maximizing rewards, RL helps in decision-making for robotics, gaming, self-driving cars, and more. Explore its components, key algorithms, and real-world applications.
+        </p>
+        <a href="more.html" class="read-more">Read More</a>
+    </div>
+</body>
+</html>
